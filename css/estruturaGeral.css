@@ -1,0 +1,74 @@
+@import url(estruturas/cabecalho.css);
+@import url(estruturas/secao.css);
+@import url(componentes/botoes.css);
+@import url(componentes/cartao.css);
+@import url(paginas/produtos.css);
+@import url(estruturas/rodape.css);
+@import url(paginas/login.css);
+@import url(componentes/camposDeEntrada.css);
+@import url(paginas/todosProdutosHome.css);
+
+:root {
+    --fontePrincipal:'Raleway', sans-serif;
+
+    --fonteMaior: clamp(2rem, 5vw + 0.1rem, 3rem);
+    --fonteMenor: clamp(1rem, 2vw + 0.1rem, 1.5rem);
+
+    --azul:#2A7AE4;
+    --cinzaFundoProdutos:#E5E5E5;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+#template {
+    font-family: var(--fontePrincipal);
+    font-size: var(--fonteMenor);
+    display: grid;  
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape"
+    "autor";
+    grid-template-columns: auto;
+    grid-template-rows: 72px auto auto auto;
+    overflow-x: hidden !important;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.autor {
+    background-color: #FFFFFF;
+    text-align: center;
+    grid-area: autor;
+    padding: 3rem;
+}
+
+.titulo {
+    font-size: var(--fonteMaior);
+    font-weight: 700;
+}
+
+/* Barra de rolagem: */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Trilha (barra de prograsso) da barra de rolagem: */
+::-webkit-scrollbar-track {
+    background-color: skyblue;
+}
+
+/* Alça de rolagem arrastável: */
+::-webkit-scrollbar-thumb {
+    background-color: var(--azul);
+}
+
+@media screen and (min-width: 1440px) {
+    #template {
+        grid-template-rows: 115px auto auto auto;
+    }
+}

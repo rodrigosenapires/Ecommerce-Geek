@@ -1,0 +1,120 @@
+.botao {
+    background-color: var(--azul);
+    color: #FFFFFF;
+    width: 180px;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoAdm {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    font-weight: 600;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+}
+
+.formularioBotaoLogin {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botaoLogin {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.botaoDesktop {
+    display: none;
+}
+
+.botaoMobile {
+    background-color: var(--azul);
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.botaoDeletarImagem, .botaoEditarImagem {    
+    border:none;
+    background:transparent;
+    outline:none;
+    color: white;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+  }
+  
+  .formularioIconeImagem {    
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  
+
+@media screen and (min-width: 768px) {
+    .botao,.botaoLogin {
+        width: 200px;        
+    }
+    
+    .botaoDesktop {
+        display: flex;
+    }
+
+    .botaoMobile {
+        display: none;
+    }
+           
+}
+
+@media screen and (min-width: 1440px) {   
+    .botaoAdmDesktop {
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formularioBotaoLogin {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10rem;
+    }
+
+    .botaoDesktop {
+        display: flex;
+    }
+
+    .botaoMobile {
+        display: none;
+    }    
+
+}

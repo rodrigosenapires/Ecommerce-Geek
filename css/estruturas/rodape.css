@@ -1,0 +1,101 @@
+.rodape {
+    background-color:#EAF2FD;
+    grid-area: rodape;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodapeLogo {
+    width: 176px;
+    height: 51px; 
+}
+
+.containerRodapeLogo {
+    width: 40px;
+    height: 30px;
+}
+
+
+.rodapeLista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodapeItem {
+    margin-top: 1rem;
+}
+
+.rodapeFormularioTitulo {
+    font-weight: 700;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: flex-start;
+    }
+
+    .containerRodape {
+        padding: 4rem;
+    }
+
+    .rodapeFormularioTitulo {
+        margin: .5rem 0;
+    }
+
+    .rodapeLista {
+        align-items: flex-start;
+    }
+
+    .rodapeItem {
+        margin-bottom: .8rem;
+    }
+
+    .logoDesktop {
+        display: none;
+    }   
+    
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .containerRodape {
+        padding: 4rem;
+    }
+
+    .rodapeFormularioTitulo {
+        margin: .5rem 0;
+    }
+
+    .rodapeLista {
+        align-items: flex-start;
+    }
+
+    .rodapeItem {
+        margin-bottom: .8rem;
+    }
+    
+    .rodapeContainer {
+        display: flex;
+    }
+
+    .logoTablet {
+        display: none;
+    }
+        
+}

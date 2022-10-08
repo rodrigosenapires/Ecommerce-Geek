@@ -1,0 +1,40 @@
+.cartao {
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto auto auto auto;
+    gap: 1rem;
+    width: 100%;
+}
+
+.precoProduto {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.imagemProduto {
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+    object-position:initial;
+}
+
+
+  .cartaoImagemProduto {    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+              
+}
+
+@media screen and (min-width: 768px){
+    .imagemProduto {
+        height: 226px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .imagemProduto {
+        height: 250px;
+    }
+}

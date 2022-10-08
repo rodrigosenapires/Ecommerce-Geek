@@ -1,0 +1,141 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+    width: 100%;
+    grid-area: cabecalho;
+}
+
+.cabecalhoLogo {
+    width: 146px;
+    height: 41px;
+}
+
+.imagemCabecalhoLupa {
+    width: 1.4rem;
+}
+
+.botaoCampoPesquisa, .formularioCampoPesquisa, #campoPesquisa {
+    display: none;
+}
+
+.cabecalhoProdutos {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .imagemCabecalhoLupa {
+        display: none;
+    }
+
+    #campoPesquisa {
+        display: block;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        width: 328px;
+        height: 42px;
+        font-size: 1rem;
+    }
+
+    .cabecalhoContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalhoLogo {
+        margin-right: 2rem;
+        width: 122px;
+        height: 41px;
+    }
+
+    .botaoCampoPesquisa {
+        display: block;
+        position:absolute;
+        top:1; 
+        right: 0;
+        z-index:10;
+        border:none;
+        background:transparent;
+        outline:none;
+        color: #A2A2A2;
+        margin-right: 1rem;
+      }
+      
+      .formularioCampoPesquisa {
+        display: block;
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      
+      .formularioCampoPesquisa input {
+        width: 100%;
+      }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .imagemCabecalhoLupa {
+        display: none;
+    }
+
+    #campoPesquisa {
+        display: block;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        width: 416px;
+        height: 42px;
+    }
+
+    .cabecalhoContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalhoLogo {
+        margin-right: 2rem;
+        width: 190px;
+        height: 60px;
+    }
+
+    .botaoCampoPesquisa {
+        display: block;
+        position:absolute;
+        top:1; 
+        right: 0;
+        z-index:10;
+        border:none;
+        background:transparent;
+        outline:none;
+        color: #A2A2A2;
+        margin-right: 1rem;
+    }
+      
+      .formularioCampoPesquisa {
+        display: block;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+      
+      .formularioCampoPesquisa input {
+        width: 100%;
+    }
+
+    .formularioBotaoLogin {
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,330 @@
+/* Seção de produtos: */
+.secao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.secaoTituloContainer {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+.verTudoIconeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verProduto,
+.verTudo {
+    color: var(--azul);
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.verProduto {
+    margin-bottom: .5rem;
+}
+
+.iconeTamanho {
+    width: 24px;
+    color: var(--azul);
+}
+
+/* Seção do banner: */
+
+.banner {
+    width: 100%;
+    height: 192px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 41.15%, rgba(0, 0, 0, 0.2) ), linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%), url(../../imagens/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.bannerTitulo {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.bannerDescricao {
+    color: #FFFFFF;
+    margin: .5rem 0;
+}
+
+/* Seção da página de produto: */
+
+.produtoDestaque {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+
+.produtoDestaquePreco{
+    font-family: sans-serif;
+}
+
+.produtoDestaqueP {
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.produtoDestaqueImagem {    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: auto;
+    height: 272px;
+    padding: 1rem;
+    
+}
+
+.imagemCaneca {
+    background-image: url(../../imagens/starwars/canecaStarWars.png);
+}
+
+.imagemBTP {
+    background-image: url(../../imagens/starwars/bonecoTrooperDaMortePequeno.png);
+}
+
+.imagemYoda {
+    background-image: url(../../imagens/starwars/bonecoYoda.png);
+}
+
+.imagemStormtroopers {
+    background-image: url(../../imagens/starwars/bonecoStormtroopers.png);
+}
+
+.imagemBonecoYodaPequeno {
+    background-image: url(../../imagens/starwars/bonecoYodaPequeno.png);
+}
+
+.imagemBonecoTrooperDaMorte {
+    background-image: url(../../imagens/starwars/bonecoTrooperDaMorte.png);
+}
+
+.imagemControleXbox {
+    background-image: url(../../imagens/consoles/controleXboxOne.png);
+}
+
+.imagemPlaystation5 {
+    background-image: url(../../imagens/consoles/playstation5.png);
+}
+
+.imagemNintendoNES {
+    background-image: url(../../imagens/consoles/nintendo.png);
+}
+
+.imagemControleNintendoWii {
+    background-image: url(../../imagens/consoles/controleNintendoWii.png);
+}
+
+.imagemCaixaDeSom {
+    background-image: url(../../imagens/consoles/caixaSom.png);
+}
+
+.imagemGameBoy {
+    background-image: url(../../imagens/consoles/gameBoy.png);
+}
+
+.imagemCamisaAtari {
+    background-image: url(../../imagens/diversos/camisaAtari.png);
+}
+
+.imagemCamisaSNES {
+    background-image: url(../../imagens/diversos/camisaSnes.png);
+}
+
+.imagemBonecoSonic {
+    background-image: url(../../imagens/diversos/bonecoSonic.png);
+}
+
+.imagemRadio {
+    background-image: url(../../imagens/diversos/radioRelogioDigital.png);
+}
+
+.imagemOculus {
+    background-image: url(../../imagens/diversos/oculosRV.png);
+}
+
+.imagemPikachu {
+    background-image: url(../../imagens/diversos/pikachu.png);
+}
+
+.produtoDestaqueTitulo {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.produtoDestaquePreco {
+    font-weight: 700;
+}
+
+.cartao:nth-child(5) {
+    display: none;
+}
+
+.cartao:nth-child(6) {
+    display: none;
+}
+
+/* Seção da página todos os produtos home: */
+
+.todosProdutosContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+/* Seção da página quem somos: */
+
+.quemSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quemSomosContainer {
+    padding: 5rem 2rem;
+}
+
+.quemSomosConteudo {
+    margin-top: 2rem;
+}
+
+/* Seção da página política de privacidade: */
+
+.secaoPoliticaPrivacidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoPoliticaPrivacidadeContainer {
+    padding: 5rem 2rem;
+}
+
+.secaoPoliticaPrivacidadeConteudo {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    /* Seção de produtos: */
+    
+    .secao {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: .5rem;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .secaoTituloContainer {
+        grid-column: span 7;
+    }
+      
+    .cartao:nth-child(5) {
+        display: none;
+    }
+
+    .cartao:nth-child(6) {
+        display: none;
+    }
+
+    /* Seção do banner: */
+
+    .banner {
+        height: 352px;
+    }
+   
+    /* Seção da página de produto: */
+
+    .produtoDestaque {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+        height: 500px;
+        gap: 1rem;
+        position: relative;
+    }
+
+    .formularioAdicionarProduto {
+        position: absolute;
+        bottom: 26%;
+        display: flex;
+        left: 0;
+    }
+        
+}
+
+@media screen and (min-width: 1440px) {
+    /* Seção de produtos: */
+    .secao {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: .5rem;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .secaoTituloContainer {
+        grid-column: span 7;
+
+    }
+
+    .secaoTitulo {
+        font-size: 2rem;
+    }
+
+    .cartao:nth-child(5) {
+        display: grid
+    }
+
+    .cartao:nth-child(6) {
+        display: grid
+    }
+
+    /* Seção do banner: */
+
+    .banner {
+        height: 352px;
+    }
+
+    .bannerDescricao {
+        font-size: 22px;
+    }
+
+    /* Seção da página de produto: */
+
+    .produtoDestaque {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: auto;
+        align-items: flex-start;
+        height: 500px;
+        gap: 1rem;
+        position: relative;
+    }
+
+    .formularioAdicionarProduto {
+        position: absolute;
+        bottom: 26%;
+    }
+}

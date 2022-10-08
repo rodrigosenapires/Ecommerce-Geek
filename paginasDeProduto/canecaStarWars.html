@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/estruturaGeral.css">
+
+    <script src="https://kit.fontawesome.com/3bf3ef48c8.js" crossorigin="anonymous"></script>
+
+    <title>AluraGeek</title>
+
+</head>
+
+<body id="template">
+
+    <header class="cabecalho">
+        <div class="cabecalhoContainer">
+            <a href="../index.html">
+                <img class="cabecalhoLogo" src="../imagens/logo-alura.png" alt="">
+            </a>
+            <form class="formularioCampoPesquisa" action="">
+                <input type="text" name="campoPesquisa" id="campoPesquisa" placeholder="   O que deseja encontrar?">
+                <button class="botaoCampoPesquisa" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <img class="imagemCabecalhoLupa" src="../imagens/lupa.svg" alt="Ícone de pesquisa">
+    </header>
+
+    <main class="principal">
+
+        <section class="produtoDestaque container">
+            <div class="produtoDestaqueImagem imagemCaneca">
+                <div class="botaoAdicionarProdutoContainerMobile">
+                    <form class="formularioAdicionarProduto container" action="produtos.html">
+                        <button class="botao botaoDesktop">Adicionar ao carrinho</button>
+                    </form>
+                </div>
+            </div>
+            <form class="formularioAdicionarProduto" action="produtos.html">
+                <button class="botaoMobile">Adicionar produto</button>
+            </form>
+            <div class="produtoDesaqueContainer">
+                <p class="produtoDestaqueP titulo">Caneca Star Wars</p>
+                <p class="produtoDestaqueP produtoDestaquePreco">R$ 60,00</p>
+                <p class="produtoDestaqueP produtoDestaqueDescricao">Caneca 3D Stormtrooper:<br><br>Star Wars está com
+                    dificuldade de derrotar o lado da sede da força? A gente te ajuda! Com essa caneca você derrota a
+                    sede e passa para o lado hidratado! Não importa se a sua aventura é nessa galáxia ou não, essa
+                    caneca te acompanha em todas as suas aventuras!<br><br>
+
+                    O produto é feito em território nacional, feita em porcelana possui detalhes incríveis que vão fazer
+                    você se apaixonar! Com 500ml de capacidade para te ajudar a fazer parte do lado hidratado da força!
+                    Não importa se você é um Jedi ou Sith, com essa caneca você tem companhia para todas as suas
+                    aventuras!<br><br>
+
+                    Altura: 10cm| Largura: 14cm| Profundidade: 13cm | Peso: 355gr| Capacidade: 500ml| Material:
+                    Porcelana<br><br>
+
+                    Cuidados e recomendações de uso:<br><br>
+                    Lavar com água, esponja macia e detergente neutro.
+                    Não vai ao micro-ondas, nem a lava-louças.
+                    Não utilizar químicos e abrasivos.
+                    Choques ou quedas podem trincar ou quebrar o produto, pois trata-se de um produto de cerâmica.</p>
+            </div>
+        </section>
+
+
+
+        <section class="secao container">
+
+            <div class="secaoTituloContainer">
+                <h2 class="titulo">Produtos similares</h2>
+            </div>
+
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/diversos/pikachu.png" alt="">
+                <h2 class="tituloProduto">Boneco de pelúcia Pikachu</h2>
+                <p class="precoProduto">R$122,90</p>
+                <a href="pikachu.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/starwars/canecaStarWars.png" alt="">
+                <h2 class="tituloProduto">Caneca Star Wars</h2>
+                <p class="precoProduto">R$49,90</p>
+                <a href="canecaStarWars.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/starwars/bonecoYoda.png" alt="">
+                <h2 class="tituloProduto">Boneco Yoda</h2>
+                <p class="precoProduto">R$199,90</p>
+                <a href="BonecoYoda.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/diversos/bonecoSonic.png" alt="">
+                <h2 class="tituloProduto">Boneco Sonic</h2>
+                <p class="precoProduto">R$74,90</p>
+                <a href="BonecoSonic.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/consoles/playstation5.png" alt="">
+                <h2 class="tituloProduto">Playstation 5</h2>
+                <p class="precoProduto">R$4099,00</p>
+                <a href="playstation5.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="../imagens/diversos/radioRelogioDigital.png" alt="">
+                <h2 class="tituloProduto">Radio Relógio Digital</h2>
+                <p class="precoProduto">R$194,00</p>
+                <a href="radioRelogioDigital.html" class="verProduto">Ver produto</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape container">
+        <a href="../index.html">
+            <img class="logoDesktop rodapeLogo rodapeContainer" src="../imagens/logo-alura.png" alt="">
+        </a>
+
+        <ul class="rodapeLista">
+
+            <li>
+                <a href="../index.html">
+                    <img class="logoTablet rodapeLogo rodapeContainer" src="../imagens/logo-alura.png" alt="">
+                </a>
+            </li>
+
+
+            <li class="rodapeItem"><a href="#">Quem somos nós</a></li>
+
+            <li class="rodapeItem"><a href="#">Política de privacidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Programa fidelidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Nossas lojas</a></li>
+
+            <li class="rodapeItem"><a href="#">Quero ser franqueado</a></li>
+
+            <li class="rodapeItem"><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="formulario">
+
+            <form class="formularioPosicao" action="">
+
+                <p class="rodapeFormularioTitulo">Fale conosco</p>
+
+                <input class="campo" type="text" placeholder="Nome">
+                <textarea class="campo tamanhoCampoTxt" id="mensagem" name="mensagem" rows="5" cols="33"
+                    placeholder="Escreva sua mensagem"></textarea>
+                <input class="botao" type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </footer>
+
+    <div class="autor">
+        <p>Desenvolvido por Rodrigo Sena Pires 2022</p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>

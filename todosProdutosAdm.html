@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estruturaGeral.css">
+
+    <script src="https://kit.fontawesome.com/3bf3ef48c8.js" crossorigin="anonymous"></script>
+
+    <title>AluraGeek</title>
+
+</head>
+
+<body id="template">
+
+    <header class="cabecalho cabecalhoTodosProdutos">
+        <div class="cabecalhoContainer">
+            <a href="index.html">
+                <img class="cabecalhoLogo" src="imagens/logo-alura.png" alt="">
+            </a>
+            <form class="formularioCampoPesquisa" action="">
+                <input type="text" name="campoPesquisa" id="campoPesquisa" placeholder="   O que deseja encontrar?">
+                <button class="botaoCampoPesquisa" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <img class="imagemCabecalhoLupa" src="imagens/lupa.svg" alt="Ícone de pesquisa">
+    </header>
+
+    <main class="principal principalProdutos container">
+
+        <section class="todosProdutosContainer">
+            <h1 class="titulo">Todos os produtos</h1>
+            <form action="produtos.html">
+                <button class="botao">Adicionar produto</button>
+            </form>
+        </section>
+
+        <section class="secao container">
+
+            <div class="secaoTituloContainer">
+                <h2 class="titulo">Star Wars</h2>
+            </div>
+
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemCaneca imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Caneca Star Wars</h2>
+                <p class="precoProduto">R$49,90</p>
+                <a href="paginasDeProduto/canecaStarWars.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemBTP imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Trooper da morte pequeno</h2>
+                <p class="precoProduto">R$59,90</p>
+                <a href="paginasDeProduto/BonecoTrooperDaMortePequeno.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemYoda imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Yoda</h2>
+                <p class="precoProduto">R$199,90</p>
+                <a href="paginasDeProduto/BonecoYoda.html" class="verProduto">Ver produto</a>
+            </article>            
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemStormtroopers imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Stormtroopers </h2>
+                <p class="precoProduto">R$115,00</p>
+                <a href="paginasDeProduto/BonecoStormtroopers.html" class="verProduto">Ver produto</a>
+            </article>                     
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemBonecoYodaPequeno imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Yoda pequeno</h2>
+                <p class="precoProduto">R$62,00</p>
+                <a href="paginasDeProduto/BonecoYodaPequeno.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemBonecoTrooperDaMorte imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Trooper da morte</h2>
+                <p class="precoProduto">R$180,00</p>
+                <a href="paginasDeProduto/BonecoTrooperDaMorte.html" class="verProduto">Ver produto</a>
+            </article>
+
+        </section>
+
+        <section class="secao container">
+            <div class="secaoTituloContainer">
+                <h2 class="titulo">Console</h2>
+            </div>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemControleXbox imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Controle Xbox One</h2>
+                <p class="precoProduto">R$250,00</p>
+                <a href="paginasDeProduto/controleXboxOne.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemPlaystation5 imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Playstation 5</h2>
+                <p class="precoProduto">R$4099,00</p>
+                <a href="paginasDeProduto/playstation5.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemNintendoNES imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Nintendo For Nes Classic</h2>
+                <p class="precoProduto">R$146,00</p>
+                <a href="paginasDeProduto/nintendoNES.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemControleNintendoWii imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Controle Nintendo Wii </h2>
+                <p class="precoProduto">R$72,00</p>
+                <a href="paginasDeProduto/controleNintendoWii.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemCaixaDeSom imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Caixa de som Ativa Staner</h2>
+                <p class="precoProduto">R$990,00</p>
+                <a href="paginasDeProduto/caixaDeSom.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemGameBoy imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Game Boy Color</h2>
+                <p class="precoProduto">R$855,00</p>
+                <a href="paginasDeProduto/gameBoyColor.html" class="verProduto">Ver produto</a>
+            </article>
+            
+        </section>
+
+        <section class="secao container">
+            <div class="secaoTituloContainer">
+                <h2 class="titulo">Diversos</h2>
+            </div>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemCamisaAtari imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Camisa Atari</h2>
+                <p class="precoProduto">R$60,00</p>
+                <a href="paginasDeProduto/camisaAtari.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemCamisaSNES imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Camisa SNES</h2>
+                <p class="precoProduto">R$60,00</p>
+                <a href="paginasDeProduto/camisaSNES.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemBonecoSonic imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco Sonic</h2>
+                <p class="precoProduto">R$74,90</p>
+                <a href="paginasDeProduto/BonecoSonic.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemRadio imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Radio Relógio Digital</h2>
+                <p class="precoProduto">R$194,00</p>
+                <a href="paginasDeProduto/radioRelogioDigital.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemOculus imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Oculus Quest 2 Realidade Virtual</h2>
+                <p class="precoProduto">R$4128,00</p>
+                <a href="paginasDeProduto/oculus.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <div class="cartaoImagemProduto imagemPikachu imagemProduto">
+                    <form class="formularioIconeImagem" action="">
+                        <button class="botaoDeletarImagem" type="submit">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button class="botaoEditarImagem" type="submit">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+                <h2 class="tituloProduto">Boneco de pelúcia Pikachu</h2>
+                <p class="precoProduto">R$122,90</p>
+                <a href="paginasDeProduto/pikachu.html" class="verProduto">Ver produto</a>
+            </article>            
+        </section>
+    </main>
+
+    <footer class="rodape containerRodape container">
+        <img class="logoDesktop rodapeLogo rodapeContainer" src="imagens/logo-alura.png" alt="">
+
+        <ul class="rodapeLista">
+            <li><img class="logoTablet rodapeLogo rodapeContainer" src="imagens/logo-alura.png" alt=""></li>
+
+            <li class="rodapeItem"><a href="#">Quem somos nós</a></li>
+
+            <li class="rodapeItem"><a href="#">Política de privacidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Programa fidelidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Nossas lojas</a></li>
+
+            <li class="rodapeItem"><a href="#">Quero ser franqueado</a></li>
+
+            <li class="rodapeItem"><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="formulario">
+            <p class="rodapeTitulo">Fale conosco</p>
+
+            <form class="formulario" action="">
+                <input class="campo" type="text" placeholder="Nome">
+                <textarea class="campo tamanhoCampoTxt" id="mensagem" name="mensagem" rows="5" cols="33"
+                    placeholder="Escreva sua mensagem"></textarea>
+                <input class="botao" type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </footer>
+
+    <div class="autor">
+        <p>Desenvolvido por Rodrigo Sena Pires 2022</p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

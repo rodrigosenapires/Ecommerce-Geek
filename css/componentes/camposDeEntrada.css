@@ -1,0 +1,44 @@
+.campo {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #A2A2A2;
+    font-weight: 400;
+    opacity:.8;
+}
+
+.campo::placeholder {
+    padding: .5rem;
+}
+
+.tamanhoCampoTxt {
+    height: 82px;
+}
+
+@media screen and (min-width: 768px) {      
+    .tamanhoCampoTxt {
+        margin-bottom: .5rem;
+    }
+
+    .campoProdutos {
+        width: 560px;
+        height: 56px;
+        
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .tamanhoCampoTxt {
+        margin-bottom: .5rem;
+    }
+
+    .campoProdutos {
+        width: 560px;
+        height: 56px;
+        
+    }   
+}

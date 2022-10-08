@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estruturaGeral.css">
+
+    <script src="https://kit.fontawesome.com/3bf3ef48c8.js" crossorigin="anonymous"></script>
+
+    <title>AluraGeek</title>
+
+</head>
+
+<body id="template">
+
+    <header class="cabecalho cabecalhoTodosProdutos">
+        <div class="cabecalhoContainer">
+            <a href="index.html">
+                <img class="cabecalhoLogo" src="imagens/logo-alura.png" alt="">
+            </a>
+            <form class="formularioCampoPesquisa" action="">
+                <input type="text" name="campoPesquisa" id="campoPesquisa" placeholder="   O que deseja encontrar?">
+                <button class="botaoCampoPesquisa" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <img class="imagemCabecalhoLupa" src="imagens/lupa.svg" alt="Ícone de pesquisa">
+    </header>
+
+    <main class="principal principalProdutos container">
+
+        <section class="todosProdutosContainer">
+            <h1 class="titulo">Todos os produtos</h1>
+        </section>
+
+        <section class="secao container">
+
+            <div class="secaoTituloContainer">
+                <h2 class="titulo">Diversos</h2>
+            </div>
+            
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/camisaAtari.png" alt="">
+                <h2 class="tituloProduto">Camisa Atari</h2>
+                <p class="precoProduto">R$60,00</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/camisaSnes.png" alt="">
+                <h2 class="tituloProduto">Camisa SNES</h2>
+                <p class="precoProduto">R$60,00</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/bonecoSonic.png" alt="">
+                <h2 class="tituloProduto">Boneco Sonic</h2>
+                <p class="precoProduto">R$74,90</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/radioRelogioDigital.png" alt="">
+                <h2 class="tituloProduto">Radio Relógio Digital</h2>
+                <p class="precoProduto">R$194,00</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/oculosRV.png" alt="">
+                <h2 class="tituloProduto">Oculus Quest 2 Realidade Virtual</h2>
+                <p class="precoProduto">R$4128,00</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+            <article class="cartao">
+                <img class="imagemProduto" src="imagens/diversos/pikachu.png" alt="">
+                <h2 class="tituloProduto">Boneco de pelúcia Pikachu</h2>
+                <p class="precoProduto">R$122,90</p>
+                <a href="produto.html" class="verProduto">Ver produto</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape containerRodape container">
+        <img class="logoDesktop rodapeLogo rodapeContainer" src="imagens/logo-alura.png" alt="">
+
+        <ul class="rodapeLista">
+            <li><img class="logoTablet rodapeLogo rodapeContainer" src="imagens/logo-alura.png" alt=""></li>
+
+            <li class="rodapeItem"><a href="#">Quem somos nós</a></li>
+
+            <li class="rodapeItem"><a href="#">Política de privacidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Programa fidelidade</a></li>
+
+            <li class="rodapeItem"><a href="#">Nossas lojas</a></li>
+
+            <li class="rodapeItem"><a href="#">Quero ser franqueado</a></li>
+
+            <li class="rodapeItem"><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="formulario">
+            <p class="rodapeTitulo">Fale conosco</p>
+
+            <form class="formulario" action="">
+                <input class="campo" type="text" placeholder="Nome">
+                <textarea class="campo tamanhoCampoTxt" id="mensagem" name="mensagem" rows="5" cols="33"
+                    placeholder="Escreva sua mensagem"></textarea>
+                <input class="botao" type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </footer>
+
+    <div class="autor">
+        <p>Desenvolvido por Rodrigo Sena Pires 2022</p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
